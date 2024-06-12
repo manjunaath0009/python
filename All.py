@@ -1,0 +1,8 @@
+f = open("D:\\demofile.txt", "r")
+print(f.read())
+f = open("D:\\demofile.txt", "a")
+f.write(" Manjunath")
+f.close()
+f = open("D:\\demofile.txt", "r")
+print(f.read())
+f.close()
